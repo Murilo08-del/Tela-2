@@ -17,6 +17,7 @@
     text-align: end;
     font-size: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(22, 8, 150);
 }
 
 .texto {
@@ -33,6 +34,16 @@ section{
     max-width: 1950px;
 }
 
+section1{
+    background-color: #89CFF0;
+    margin: 1rem 1rem;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    width: 100%;
+}
+
+
 .flexivel {
     display: flex;
     gap: 20px;
@@ -43,6 +54,7 @@ section{
     color: black;
     font-size: 16px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 90%;
 }
 
 .descricao p {
@@ -87,6 +99,7 @@ section{
 }
 
 .caixa1 {
+    width: 90%;
     margin: 1rem 1rem;
     padding: 20px;
     border-radius: 10px;
@@ -96,11 +109,41 @@ section{
 }
 
 .caixa2 {
-    padding: 10px;
-    border-radius: 10px;
+    padding: 1px;
+    border-radius:100px;
     margin-top: 10px;
     background-color: rgb(4, 32, 126);
-    margin: 1rem 1rem;
+    margin: 1rem;
     color: white;
+    width: 70%;
  
+}
+
+.caixa4 {
+ padding: 50px;
+  width: 35px;
+  height: 100px;
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 50px;
+}
+
+.caixa3 {
+    padding: 50px;
+     width: 35px;
+     height: 100px;
+     border: 1px solid white;
+     background-color: white;
+     border-radius: 10px;
+     margin-right: 40px;
+   }
+
+.caixa5 {
+    width: 100%;
+}
+
+.block{
+    display: block;
+    width: 15rem;
 }
