@@ -34,16 +34,6 @@ section{
     max-width: 1950px;
 }
 
-section1{
-    background-color: #89CFF0;
-    margin: 1rem 1rem;
-    padding: 2rem;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    width: 100%;
-}
-
-
 .flexivel {
     display: flex;
     gap: 20px;
@@ -57,36 +47,6 @@ section1{
     width: 90%;
 }
 
-.descricao p {
-    height: 50%;
-    color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    margin-right: 300px;
-}
-
-.descricao p {
-    font-size: 25px;
-    padding: 25px;
-}
-
-.carousel {
-    display: flex;
-    overflow: hidden;
-    width: 175px;
-    border-radius: 5px;
-    background-color: white;
-    border: 4px solid rgba(0, 0, 0, 0.1);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
- 
-}
-
-.carousel img {
-    width: 100%;
-    border-radius: 5px;
-    background-color: white;
-    border: 4px solid rgba(0, 0, 0, 0.1);
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
 
 .caixa {
     width: 10% auto;
